@@ -1,7 +1,7 @@
 import os
 
 from utils import get_train_input_args
-from model import create_model, load_datasets, select_device, train, save_checkpoint
+from classifier import create_model, load_datasets, select_device, train, save_checkpoint
 
 # Usage: python train.py flowers --gpu
 # Usage: python train.py flowers

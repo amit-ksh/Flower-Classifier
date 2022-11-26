@@ -1,11 +1,11 @@
 import json
 
 from utils import get_predict_input_args, process_image
-from model import predict, load_checkpoint, select_device
+from classifier import predict, load_checkpoint, select_device
 
 # Usage: python predict.py pink_primrose.jpg model_checkpoints/checkpoint.pth
 # Usage: python predict.py globe_thistle.jpg model_checkpoints/checkpoint.pth
-# Usage: python predict.py fire_lily.jpg model_checkpoints/checkpoint.pth
+# Usage: python predict.py fire_lily.jpg model_checkpoints/checkpoint.pth --gpu
 
 def main():
   # Get the input arguments
